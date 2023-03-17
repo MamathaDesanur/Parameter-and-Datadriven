@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-08T11:55:08 AEDT" name="Suite" finished-at="2023-02-08T11:55:37 AEDT" duration-ms="29561">
+    <groups>
+    </groups>
+    <test started-at="2023-02-08T11:55:08 AEDT" name="yahoo app test" finished-at="2023-02-08T11:55:37 AEDT" duration-ms="29561">
+      <class name="com.parameter.Testyahoo">
+        <test-method is-config="true" signature="Setproperties(java.lang.String)[pri:0, instance:com.parameter.Testyahoo@4df50bcc]" started-at="2023-02-08T11:55:08 AEDT" name="Setproperties" finished-at="2023-02-08T11:55:36 AEDT" duration-ms="27837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.yahoo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setproperties -->
+        <test-method signature="YahooLoginTest(java.lang.String)[pri:0, instance:com.parameter.Testyahoo@4df50bcc]" started-at="2023-02-08T11:55:36 AEDT" name="YahooLoginTest" finished-at="2023-02-08T11:55:37 AEDT" duration-ms="944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@yahoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YahooLoginTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.parameter.Testyahoo@4df50bcc]" started-at="2023-02-08T11:55:37 AEDT" name="TearDown" finished-at="2023-02-08T11:55:37 AEDT" duration-ms="606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.parameter.Testyahoo -->
+    </test> <!-- yahoo app test -->
+  </suite> <!-- Suite -->
+</testng-results>
